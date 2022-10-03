@@ -1,24 +1,32 @@
 body {
     background-color: #eee8e8ce;
+    max-width: 750px;
+    margin: auto;
     }
 
 .title-image {
     border-radius: 40%;
-    border: 1px solid #505050
+    border: 1px solid #505050;
+    margin-top: 20px;
+    margin-left: 180px;
 }
 
 #title{
+    font-size: 40px;
     font-weight: bolder;
+    text-decoration: underline;
+    padding: 15px;
 }
 
 .subtitle {
-    font-size: 26px;
+    font-size: 30px;
+    padding: 15px;
 }
 
 .post-title {
-    font-size: 20px;
+    font-size: 25px;
     font-style: oblique;
-    color: darkblue;
+    color: #505050;
     margin: 0;
     margin-bottom: 15px;
 }
@@ -34,10 +42,22 @@ body {
 .post1-image {
     margin-bottom: 20px;
     border-radius: 10px;
+    padding-left: 100px;
 }
 
 .post-content {
+    text-align: center;
     font-size: 20px;
     margin: 0;
     margin-bottom: 10px;
+}
+
+.contact-list {
+    list-style-type: none;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.contact-list li a {
+    color: darkblue;
 }
